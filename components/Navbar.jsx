@@ -86,7 +86,7 @@ const Navbar = () => {
             <svg xmlns="http://www.w3.org/2000/svg" className='w-4 transform transition-transform duration-300 group-hover:rotate-180' viewBox="0 -960 960 960" fill="#AB6A49">
               <path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z" />
             </svg>
-            <div className='group-hover:block hidden absolute -right-96 z-10 dropdown-menu pt-4'>
+            <div className='group-hover:block hidden absolute -right-96 z-20 dropdown-menu pt-4'>
               <div className='flex'> {/* Changed class to 'flex' for row layout */}
                
                {/* Pagelist 1  */}
@@ -156,7 +156,7 @@ const Navbar = () => {
           {/* Blog */}
           <li className='group flex hover:text-primary'>BLOG
             <svg xmlns="http://www.w3.org/2000/svg" className='w-4 transform transition-transform duration-300 group-hover:rotate-180' viewBox="0 -960 960 960" fill="#AB6A49"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z" /></svg>
-            <div className='group-hover:block hidden absolute z-10 dropdown-menu pt-4'>
+            <div className='group-hover:block hidden z-20 absolute z-10 dropdown-menu pt-4'>
               <div className='flex flex-col gap-2 w-36 py-3 px-5 bg-white text-gray-500 rounded border-b-2 border-secondary'>
                 <p className='cursor-pointer hover:text-primary'>Blog Layout</p>
                 <p className='cursor-pointer hover:text-primary'>Blog Sidebar</p>
@@ -235,7 +235,7 @@ const Navbar = () => {
             <li className='group flex hover:text-primary'>PAGES
               <svg xmlns="http://www.w3.org/2000/svg" className='w-4 transform transition-transform duration-300 group-hover:rotate-180' viewBox="0 -960 960 960" fill="#AB6A49"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z" /></svg>
               <div className='group-hover:block hidden absolute z-10 dropdown-menu pt-4'>
-              <div className='flex'> {/* Changed class to 'flex' for row layout */}
+              <div className='flex flex-wrap'> {/* Changed class to 'flex' for row layout */}
                
                {/* Pagelist 1  */}
                 <div className='flex flex-col gap-2 w-48 py-3 px-5 bg-white text-gray-500 rounded border-b-2 border-secondary'>
